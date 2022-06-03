@@ -1,0 +1,18 @@
+{
+  "name": "candy-shop-heladeria",
+  "version": "1.0.0",
+  "description": "Web de una heladería llamada Candy Shop.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Casaniv/candy-shop-heladeria.git"
+  },
+  "author": "Casaniv",
+  "bugs": {
+    "url": "https://github.com/Casaniv/candy-shop-heladeria/issues"
+  },
+  "homepage": "https://github.com/Casaniv/candy-shop-heladeria#readme"
+}
