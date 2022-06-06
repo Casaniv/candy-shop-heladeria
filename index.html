@@ -1,40 +1,44 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="icon" href="img/elicono.ico">
-    <link rel="stylesheet" href="css/fontello.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
-    <link rel="stylesheet" href="css/styleE.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
     <title>CANDY SHOP</title>
+    <link rel="icon" href="img/elicono.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
     <script src="js/jquery.flexslider.js"></script>
-	<script type="text/javascript" charset="utf-8">
-  $(window).load(function() {
-    $('.flexslider').flexslider({
-    	touch: true,
-    	pauseOnAction: false,
-    	pauseOnHover: false,
-    });
-  });
-</script>
+    <script src="https://kit.fontawesome.com/5991870b6e.js" crossorigin="anonymous" data-auto-a11y="true"></script>
+    <script type="text/javascript" charset="utf-8">
+        $(window).load(function () {
+            $('.flexslider').flexslider({
+                touch: true,
+                pauseOnAction: false,
+                pauseOnHover: false,
+            });
+        });
+    </script>
 </head>
+
 <body>
     <header>
-        <div class="container">
-            <h1 class="logo">CANDY SHOP<span> CANDY SHOP</span></h1>
-        </div>
+        <a href="./">
+            <div class="logo">
+                <img src="./img/elicono.JPG" alt="" srcset="">
+                <h1>CANDY SHOP</h1>
+            </div>
+        </a>
         <nav id="site-nav" class="site-nav">
             <ul>
-                <li><a href="#pageA"><i class="fa fa-home site-nav--icon"></i>Home</a></li>
-                <li><a href="#pageB"><i class="fa fa-info site-nav--icon"></i>Acerca</a></li>
-                <li><a href="#pageC"><i class="fa fa-pencil-alt site-nav--icon"></i>Blog</a></li>
-                <li><a href="#pageD"><i class="fa fa-dollar-sign site-nav--icon"></i>Productos</a></li>
-                <li><a href="#pageE"><i class="fa fa-envelope site-nav--icon"></i>SHOP</a></li>
-                <li><a href="#pageF"><i class="fa fa-envelope site-nav--icon"></i>Contacto</a></li>
+                <li><a href="#pageA"><i class="fas fa-home site-nav--icon"></i>Inicio</a></li>
+                <li><a href="#pageB"><i class="fas fa-info site-nav--icon"></i>Acerca de</a></li>
+                <li><a href="#pageC"><i class="fas fa-pencil-alt site-nav--icon"></i>Blog</a></li>
+                <li><a href="#pageD"><i class="fas fa-dollar-sign site-nav--icon"></i>Productos</a></li>
+                <li><a href="#pageE"><i class="fas fa-envelope site-nav--icon"></i>Shop</a></li>
+                <li><a href="#pageF"><i class="fas fa-envelope site-nav--icon"></i>Contacto</a></li>
             </ul>
         </nav>
         <div id="menu-toggle" class="menu-toggle" onClick="cambiarClase()">
@@ -43,175 +47,201 @@
     </header>
     <script src="js/app.js"></script>
 
-    <section id="pageA">
-        <h1>CANDY SHOP</h1>
-        <div class="flexslider">
-            <ul class="slides">
-                <li>
-                    <img src="img/helado.jpg" alt="">
-                    <section class="flex-caption">
-                        <p>CANDY SHOP</p>
-                    </section>
-                </li>
-                <li>
-                    <img src="img/cono.jpg" alt="">
-                    <section class="flex-caption">
-                        <p>CANDY SHOP</p>
-                    </section>
-                </li>
-                <li>
-                    <img src="img/pina.jpg" alt="">
-                    <section class="flex-caption">
-                        <p>CANDY SHOP</p>
-                    </section>
-                </li>
-            </ul>
-        </div>
-    </section>
+    <main>
+        <section class="page" id="pageA">
+            <h1>CANDY SHOP</h1>
+            <div class="flexslider">
+                <ul class="slides">
+                    <li>
+                        <img src="img/helado.jpg" alt="">
+                        <section class="flex-caption">
+                            <p>CANDY SHOP</p>
+                        </section>
+                    </li>
+                    <li>
+                        <img src="img/cono.jpg" alt="">
+                        <section class="flex-caption">
+                            <p>CANDY SHOP</p>
+                        </section>
+                    </li>
+                    <li>
+                        <img src="img/pina.jpg" alt="">
+                        <section class="flex-caption">
+                            <p>CANDY SHOP</p>
+                        </section>
+                    </li>
+                </ul>
+            </div>
+        </section>
 
-    <section id="pageB">
-        <h1>Acerca</h1>
-        <p>LA HELADERÍA CANDY SHOP BUSCA RECUPERAR EL CONCEPTO DE HELADERÍA DE BARRIO CLÁSICA DONDE LAS PERSONAS SE REÚNEN A PASAR UN  BUEN RATO
-            MIENTRAS DISFRUTAN DE UN BUEN PRODUCTO. NUESTRA FILOSOFÍA ES OBTENER LA MEJOR CALIDAD POSIBLE CON SABORES DEL MUNDO USANDO 
-           LAS MEJORES MATERIAS PRIMAS DEL MERCADO, LAS FRUTAS MEJOR SELECCIONADAS Y CON RECETAS AREQUIPEÑAS BIEN BALANCEADAS.</br></p>
-           <p>CANDY SHOP BUSCA 
-           EXHIBIR Y SERVIR HELADOS ARTESANALES LOGRANDO UNA TEXTURA SUAVE, SABORES QUE SABEN A LO QUE PROMETEN Y UNA EXPERIENCIA ÚNICA 
-           A LA HORA DE COMERLOS.</br></p>
-          <p>NUESTRO PROPÓSITO ES VOLVERNOS LA HELADERÍA PREFERIDA DE LOS AREQUIPEÑOS Y SER RECONOCIDOS POR NUESTRA CALIDAD, SERVICIO, 
-           INNOVACIÓN Y SOBRE TODO POR LOGRAR QUE CADA AREQUIPEÑO SE SIENTA COMO EN CASA CUANDO NOS VISITA.</p>
-           <img src="img/iris.jpg" alt="iris" title="iris">
-    </section>
+        <section class="page" id="pageB">
+            <h1>Acerca</h1>
+            <div class="contenedor">
+                <p>LA HELADERÍA CANDY SHOP BUSCA RECUPERAR EL CONCEPTO DE HELADERÍA DE BARRIO CLÁSICA DONDE LAS PERSONAS
+                    SE
+                    REÚNEN A PASAR UN BUEN RATO
+                    MIENTRAS DISFRUTAN DE UN BUEN PRODUCTO. NUESTRA FILOSOFÍA ES OBTENER LA MEJOR CALIDAD POSIBLE CON
+                    SABORES
+                    DEL MUNDO USANDO
+                    LAS MEJORES MATERIAS PRIMAS DEL MERCADO, LAS FRUTAS MEJOR SELECCIONADAS Y CON RECETAS AREQUIPEÑAS
+                    BIEN
+                    BALANCEADAS.</br></p>
+                <p>CANDY SHOP BUSCA
+                    EXHIBIR Y SERVIR HELADOS ARTESANALES LOGRANDO UNA TEXTURA SUAVE, SABORES QUE SABEN A LO QUE PROMETEN
+                    Y
+                    UNA
+                    EXPERIENCIA ÚNICA
+                    A LA HORA DE COMERLOS.</br></p>
+                <p>NUESTRO PROPÓSITO ES VOLVERNOS LA HELADERÍA PREFERIDA DE LOS AREQUIPEÑOS Y SER RECONOCIDOS POR
+                    NUESTRA
+                    CALIDAD, SERVICIO,
+                    INNOVACIÓN Y SOBRE TODO POR LOGRAR QUE CADA AREQUIPEÑO SE SIENTA COMO EN CASA CUANDO NOS VISITA.</p>
+            </div>
+            <img src="img/iris.jpg" alt="iris" title="iris">
+        </section>
 
-    <section id="pageC">
-        <h1>BLOG</h1>
-        <div class="contenedor">
-            <div class="info-cliente">
-                <img src="img/pe1.jpg" alt="cliente feliz">
-                <h4>Nora M.</h4>
-                <h5>"Los Mejores Helados Que He Comido En Tu Vida."</h5>
+        <section class="page" id="pageC">
+            <h1>BLOG</h1>
+            <div class="contenedor">
+                <div class="info-cliente">
+                    <img src="img/pe1.jpg" alt="cliente feliz">
+                    <h4>Nora M.</h4>
+                    <h5>"Los Mejores Helados Que He Comido En Tu Vida."</h5>
+                </div>
+                <div class="info-cliente">
+                    <img src="img/pe2.jpg" alt="cliente feliz">
+                    <h4>Jackeline C.</h4>
+                    <h5>"Siempre despues de la escuela me encanta venir aca con mis amigosvenimos junto con nuestros
+                        papis y
+                        disfrutamos de una tarde helada."</h5>
+                </div>
+                <div class="info-cliente">
+                    <img src="img/p3.jpg" alt="cliente feliz">
+                    <h4>Sam & Lisa S.</h4>
+                    <h5>"Vinimos aca para nuestra primera cita y se convirtio en nuestro lugar preferido."</h5>
+                </div>
+                <div class="info-cliente">
+                    <img src="img/pe4.jpg" alt="cliente feliz">
+                    <h4>Annie J. </h4>
+                    <h5>"Cuando Todo Sale Mal En Un Dia Gris, Me Encanta LLenarlo de Colores Con Un Cono de CANDY SHOP."
+                    </h5>
+                </div>
             </div>
-            <div class="info-cliente">
-                <img src="img/pe2.jpg" alt="cliente feliz">
-                <h4>Jackeline C.</h4>
-                <h5>"Siempre despues de la escuela me encanta venir aca con mis amigosvenimos junto con nuestros papis y disfrutamos de una tarde helada."</h5>
-            </div>
-            <div class="info-cliente">
-                <img src="img/p3.jpg" alt="cliente feliz">
-                <h4>Sam & Lisa S.</h4>
-                <h5>"Vinimos aca para nuestra primera cita y se convirtio en nuestro lugar preferido."</h5>
-            </div>
-            <div class="info-cliente">
-                <img src="img/pe4.jpg" alt="cliente feliz">
-                <h4>Annie J. </h4>
-                <h5>"Cuando Todo Sale Mal En Un Dia Gris, Me Encanta LLenarlo de Colores Con Un Cono de CANDY SHOP."</h5>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="pageD">
-        <h1>Productos</h1>
-        <div class="contenedor">
-            <div class="info-producto">
-                <img src="img/choco.jpg" title="HELADO DE CHOCOLATE">
-                <h4>HELADO DE CHOCOLATE</h4>
+        <section class="page" id="pageD">
+            <h1>Productos</h1>
+            <div class="contenedor">
+                <div class="info-producto">
+                    <img src="img/choco.jpg" title="HELADO DE CHOCOLATE">
+                    <h4>HELADO DE CHOCOLATE</h4>
+                </div>
+                <div class="info-producto">
+                    <img src="img/fresa.jpg" title="HELADO DE FRESA">
+                    <h4>HELADO DE FRESA</h4>
+                </div>
+                <div class="info-producto">
+                    <img src="img/uva.jpg" title="HELADO CON SABOR A UVA">
+                    <h4>HELADO CON SABOR A UVA</h4>
+                </div>
+                <div class="info-producto">
+                    <img src="img/pina.jpg" title="HELADO CON SABOR A PIÑA">
+                    <h4>HELADO CON SABOR A PIÑA</h4>
+                </div>
+                <div class="info-producto">
+                    <img src="img/vanila.jpg" title="HELADO DE VAINILLA">
+                    <h4>HELADO DE VAINILLA</h4>
+                </div>
+                <div class="info-producto">
+                    <img src="img/limon.jpg" title="HELADO CON SABOR A LIMON">
+                    <h4>HELADO CON SABOR A LIMON</h4>
+                </div>
+                <div class="info-producto">
+                    <img src="img/orange.jpg" title="HELADO DE NARANJA">
+                    <h4>HELADO DE NARANJA</h4>
+                </div>
+                <div class="info-producto">
+                    <img src="img/unicorn.jpeg" title="HELADO UNICORNIO ARCOIRIS">
+                    <h4>**Nuevo**</h4>
+                    <h5>HELADO UNICORNIO ARCOIRIS</h5>
+                </div>
             </div>
-            <div class="info-producto">
-                <img src="img/fresa.jpg" title="HELADO DE FRESA">
-                <h4>HELADO DE FRESA</h4>
-            </div>
-            <div class="info-producto">
-                <img src="img/uva.jpg" title="HELADO CON SABOR A UVA">
-                <h4>HELADO CON SABOR A UVA</h4>
-            </div>
-            <div class="info-producto">
-                <img src="img/pina.jpg" title="HELADO CON SABOR A PIÑA">
-                <h4>HELADO CON SABOR A PIÑA</h4>
-            </div>
-            <div class="info-producto">
-                <img src="img/vanila.jpg" title="HELADO DE VAINILLA">
-                <h4>HELADO DE VAINILLA</h4>
-            </div>
-            <div class="info-producto">
-                <img src="img/limon.jpg" title="HELADO CON SABOR A LIMON">
-                <h4>HELADO CON SABOR A LIMON</h4>
-            </div>
-            <div class="info-producto">
-                <img src="img/orange.jpg" title="HELADO DE NARANJA">
-                <h4>HELADO DE NARANJA</h4>
-            </div>
-            <div class="info-producto">
-                <img src="img/unicorn.jpeg" title="HELADO UNICORNIO ARCOIRIS">
-                <h4>**Nuevo**</h4>
-                <h5>HELADO UNICORNIO ARCOIRIS</h5>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="pageE">
-        <h1>SHOP</h1>
-        <div class="flexslider">
-            <ul class="slides">
-                <li>
-                    <img src="img/store4.jpg" alt="">
-                    <section class="flex-caption">
-                        <p>CANDY SHOP</p>
-                    </section>
-                </li>
-                <li>
-                    <img src="img/store3.jpg" alt="">
-                    <section class="flex-caption">
-                        <p>CANDY SHOP</p>
-                    </section>
-                </li>
-                <li>
-                    <img src="img/store2.jpeg" alt="">
-                    <section class="flex-caption">
-                        <p>CANDY SHOP</p>
-                    </section>
-                </li>
-            </ul>
-        </div>
-    </section>
-    
-    <section id="pageF">
-        <h1>Contacto</h1>
-        <div id="cuerpo">
-            <div id="izquierda">
-           
-            <!-- Formulario de contacto -->
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfMbhtQgWuvv8pfyYnQyFWD3NsQ0ZhPSuHNpFgXoA-0p2IQ1g/viewform?embedded=true" width="640" height="812" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
-           
+        <section class="page" id="pageE">
+            <h1>SHOP</h1>
+            <div class="flexslider">
+                <ul class="slides">
+                    <li>
+                        <img src="img/store4.jpg" alt="">
+                        <section class="flex-caption">
+                            <p>CANDY SHOP</p>
+                        </section>
+                    </li>
+                    <li>
+                        <img src="img/store3.jpg" alt="">
+                        <section class="flex-caption">
+                            <p>CANDY SHOP</p>
+                        </section>
+                    </li>
+                    <li>
+                        <img src="img/store2.jpeg" alt="">
+                        <section class="flex-caption">
+                            <p>CANDY SHOP</p>
+                        </section>
+                    </li>
+                </ul>
             </div>
-            <div id="derecha">
-            <h2 class="centrada">Nuestros Teléfonos</h2>
-            <p class="centrada">
-            +51-980-646515<br />
-            +51-912-479283
-            </p>
-            <hr />
-            <h2 class="centrada">Dirección</h2>
-            <p class="centrada">
-            Av. Asuncion ---- <br />Paucarpata <br />Arequipa
-            </p>
-            <hr />
-            <h2 class="centrada">Ubicanos</h2>
-            <center>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3827.0928142983935!2d-71.50801278577703!3d-16.420111943028143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91424b14440d9689%3A0x37feb1fecb599731!2sI.E.%20Nuestra%20Se%C3%B1ora%20de%20la%20Asunci%C3%B3n!5e0!3m2!1ses-419!2spe!4v1654218182972!5m2!1ses-419!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </center>
+        </section>
+
+        <section class="page" id="pageF">
+            <h1>Contacto</h1>
+            
+            <div class="cuerpo">
+                <aside class="izquierda">
+                    <!-- Formulario de contacto -->
+                    <iframe
+                        src="https://docs.google.com/forms/d/e/1FAIpQLSfMbhtQgWuvv8pfyYnQyFWD3NsQ0ZhPSuHNpFgXoA-0p2IQ1g/viewform?embedded=true"
+                        height="812" frameborder="0" marginheight="0" marginwidth="0">Cargando…
+                    </iframe>
+                </aside>
+                <aside class="derecha">
+                    <h2 class="centrada">Nuestros Teléfonos</h2>
+                    <p class="centrada">
+                        +51-980-646515<br />
+                        +51-912-479283
+                    </p>
+                    <hr />
+                    <h2 class="centrada">Dirección</h2>
+                    <p class="centrada">
+                        Av. Asuncion ---- <br />
+                        Paucarpata <br />
+                        Arequipa
+                    </p>
+                    <hr />
+                    <h2 class="centrada">Ubicanos</h2>
+
+                    <!-- Google Maps -->
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3827.0928142983935!2d-71.50801278577703!3d-16.420111943028143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91424b14440d9689%3A0x37feb1fecb599731!2sI.E.%20Nuestra%20Se%C3%B1ora%20de%20la%20Asunci%C3%B3n!5e0!3m2!1ses-419!2spe!4v1654218182972!5m2!1ses-419!2spe"
+                        height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+
+                </aside>
+
             </div>
-           
-            </div>
-    </section>
+        </section>
+    </main>
 
     <footer>
-		<div id="contenedor">
-			<p class="copy"> GRUPO 3 - CANDY SHOP &copy; 2022</p>
-			<div class="sociales">
-			<span class=icon-twitter></span>
-			<span class=icon-pinteret></span>
-			<span class=icon-facebook-squared></span>
-			<span class=icon-instagram></span>
-		</div>
-	</footer>
+        <div id="contenedor">
+            <p class="copy"> GRUPO 3 - CANDY SHOP &copy; 2022</p>
+            <div class="sociales">
+                <!-- <a href="https://"><i class="fab fa-facebook"></i></a> -->
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+    </footer>
 </body>
+
 </html>
