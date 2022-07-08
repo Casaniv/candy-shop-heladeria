@@ -11,7 +11,7 @@ const detalles = document.getElementById('detalles')
 
 let carrito = [];
 let buttonDOM = [];
-const stringURLs = {
+stringURLs = {
     inventario: "https://docs.google.com/spreadsheets/d/e/2PACX-1vRxOxuUOBEa_H45AUTOJD8LeRTNgBj4Ac-cr1F6oKlTFw2R25cIa0BIQEdRwO6TTqegxFdxQksEkZNX/pub?gid=0&single=true&output=csv",
     clients: ""
 };
